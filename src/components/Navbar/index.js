@@ -5,13 +5,13 @@ export const Navbar = () => {
   return (
     <div className={styles.container}>
         <div className={styles.leftSideNavbar}>
-        <li>
-            Harsh
+        <li className={`${styles.items} ${styles.logo}`}>
+            HarshBlog
         </li>
-        <li>
+        <li className={styles.items}>
             Home
         </li>
-        <li>
+        <li className={styles.items}>
             Blog
         </li>
         </div>

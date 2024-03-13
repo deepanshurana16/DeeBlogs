@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top:1%;
+}
+
+.leftSideNavbar{
+    display: flex;
+}
+.items{
+    list-style: none;
+    padding:10%;
+    font-size:1.5rem;
+}
+.logo{
+   color: #50b8e7;
+  
+}
