@@ -15,12 +15,13 @@ export const Post = () => {
         <p>social links</p>
         </div>
         <div className={styles.image}>
-        <Image src="/images/harsh-picture.png" width={100} height={100}></Image>
+        <Image src="/images/harsh-picture.png" width={100} height={100} className={styles.image}></Image>
         </div>
       </div>
       <div className={styles.posts}>
+        <h2>Latest posts</h2>
         <div className={styles.post}>
-          <h1>PostName</h1>
+          <h3>PostName</h3>
           <p>Time</p>
         </div>
 
