@@ -12,16 +12,19 @@
     align-items: center;
 }
 .content{
-    width:40vw;
+    width:30vw;
     padding:2rem;
 }
 
 .posts{
-    width:40vw;
+    width:30vw;
 }
 .image{
     width:10rem;
     height:10rem;
    
     border-radius: 30%;
+}
+.para{
+    padding:1rem;
 }
