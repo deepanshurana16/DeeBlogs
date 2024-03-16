@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./navbar.module.css"
-
+import Link from 'next/link'
 export const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -9,10 +9,10 @@ export const Navbar = () => {
             HarshBlog
         </li>
         <li className={styles.items}>
-            Home
+          <Link href="/" className={styles.link}>Home</Link>  
         </li>
         <li className={styles.items}>
-            Blog
+            <Link href="/Blog" className={styles.link}>Blog</Link>
         </li>
         </div>
         <div className={styles.rightSideNavbar}>

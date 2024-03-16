@@ -17,3 +17,7 @@
    font-weight: 700;
   
 }
+.link{
+    list-style: none;
+    text-decoration: none;
+}
