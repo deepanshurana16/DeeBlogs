@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from "./home.module.css"
 import Image from 'next/image'
-export const Post = () => {
+import Posts from '../Posts'
+const Post = () => {
   return (
     <div className={styles.container}>
       
@@ -18,15 +19,9 @@ export const Post = () => {
         <Image src="/images/harsh-picture.png" width={100} height={100} className={styles.image}></Image>
         </div>
       </div>
-      <div className={styles.posts}>
-        <h2>Latest posts</h2>
-        <div className={styles.post}>
-          <h3>PostName</h3>
-          <p>Time</p>
-        </div>
-
-      </div>
+      <Posts></Posts>
       
       </div>
   )
 }
+export default Post;

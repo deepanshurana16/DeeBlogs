@@ -1,4 +1,14 @@
 
 .container{
     color:black;
+    width:30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tags{
+    display: flex;
+    
+  
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./navbar.module.css"
 import Link from 'next/link'
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className={styles.container}>
         <div className={styles.leftSideNavbar}>
@@ -12,7 +12,7 @@ export const Navbar = () => {
           <Link href="/" className={styles.link}>Home</Link>  
         </li>
         <li className={styles.items}>
-            <Link href="/Blog" className={styles.link}>Blog</Link>
+            <Link href="/blog" className={styles.link}>Blog</Link>
         </li>
         </div>
         <div className={styles.rightSideNavbar}>
@@ -25,3 +25,4 @@ export const Navbar = () => {
     </div>
   )
 }
+export default Navbar;
