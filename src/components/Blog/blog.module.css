@@ -1,7 +1,7 @@
 
 .container{
     color:black;
-    width:30vw;
+    width:40vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,4 +11,33 @@
     display: flex;
     
   
+}
+.tag{
+    padding:0.4rem;
+    background-color: blue;
+    border-radius: 10%;
+    margin:0.3rem;
+}
+.reactjs{
+background-color: #8E7AB5;
+}
+.nodejs{
+background-color: #B784B7;
+}
+.nextjs{
+    background-color:#E493B3 ;
+
+}
+.git{
+
+    background-color: #EEA5A6;
+}
+.vscode{
+background-color: #99BC85;
+}
+.sql{
+background-color: #D4E7C5;
+}
+.mongodb{
+    background-color: #7BD3EA;
 }

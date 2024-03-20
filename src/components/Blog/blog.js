@@ -9,13 +9,13 @@ const Blog = () => {
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium repellendus qui recusandae delectus nobis deleniti possimus iste atque tempore ab quod eos, similique dicta temporibus totam perspiciatis! Accusantium, voluptatibus?</p>
 <div className={styles.tags}>
   <p>Common tags:</p>
-  <div>Reactjs</div>
-  <div>Nodejs</div>
-  <div>Nextjs</div>
-  <div>MongoDB</div>
-  <div>SQL</div>
-  <div>GIT</div>
-  <div>VSCODE</div>
+  <div className={`${styles.tag} ${styles.reactjs}`}>Reactjs</div>
+  <div className={`${styles.tag} ${styles.nodejs}`}>Nodejs</div>
+  <div className={`${styles.tag} ${styles.nextjs}`}>Nextjs</div>
+  <div  className={`${styles.tag} ${styles.mongodb}`}>MongoDB</div>
+  <div className={`${styles.tag} ${styles.sql}`}>SQL</div>
+  <div  className={`${styles.tag} ${styles.git}`}>GIT</div>
+  <div  className={`${styles.tag} ${styles.vscode}`}>VSCODE</div>
 </div>
 <Posts></Posts>
         
