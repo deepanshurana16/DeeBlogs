@@ -21,7 +21,7 @@ const Writepage = () => {
                 body: JSON.stringify({
                     title: title,
                     content: value,
-                    tag: "reactjs" // You may want to replace this with the actual tag
+                    tag: "reactjs" 
                 }),
             });
 
