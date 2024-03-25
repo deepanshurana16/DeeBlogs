@@ -9,12 +9,12 @@ const POST = async (req, res) => {
         const body = await req.json();
         console.log(req);
 
-        // Create a plain JavaScript object using the data from the request body
+        
         const userData = {
             Title: body.title,
             content: body.content,
             tag: body.tag,
-            time: new Date() // Assuming you want to set the current date/time
+            time: new Date() 
         };
 
         // Save the new user data to the database
