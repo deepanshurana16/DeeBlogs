@@ -13,6 +13,7 @@ const Writepage = () => {
     const handlePublish = async () => {
         try {
             console.log(value);
+            console.log(title);
             const response = await fetch('/api/write', {
                 method: 'POST',
                 headers: {
@@ -29,11 +30,11 @@ const Writepage = () => {
                 throw new Error('Network response was not ok');
             }
 
-            // If the response is successful, you can handle it here
+            
             console.log('Post successfully published');
         } catch (error) {
             console.error('Error publishing post:', error);
-            // Handle error here
+            
         }
     };
 
