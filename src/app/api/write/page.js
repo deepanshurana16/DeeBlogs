@@ -4,7 +4,7 @@ import User from "../../models/post";
 
 const POST = async (req, res) => {
     try {
-        const body = req.json(); // Use req.body directly
+        const body = req.json(); 
         console.log(req);
         const userData = {
             Title: body.title,
