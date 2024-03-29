@@ -13,7 +13,7 @@ const POST = async (req, res) => {
             time: new Date() 
         };
 
-       
+       //make corrections here
         return NextResponse.json({ message: "User posted successfully" }, { status: 200 });
     } catch (error) {
         console.error("Error occurred while saving user data:", error);
