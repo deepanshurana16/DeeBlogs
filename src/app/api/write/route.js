@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server";
+import User from "@/app/models/post";
 
-import User from "../../models/post";
 
-const POST = async (req, res) => {
+export const POST = async (req, res) => {
     try {
-        const body = req.json(); 
-        console.log(req);
+        const body = await req.json(); 
+        console.log(body);
         const userData = {
-            Title: body.title,
+            title: body.title,
             content: body.content,
             tag: body.tag,
             time: new Date() 
         };
-
+        console.log(userData);
+          await User.create(userData);
        //make corrections here
         return NextResponse.json({ message: "User posted successfully" }, { status: 200 });
     } catch (error) {
@@ -21,4 +22,4 @@ const POST = async (req, res) => {
     }
 };
 
-export default POST;
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import Writepage from '@/components/write/page'
+
 const write = () => {
   return (
     <div>
