@@ -1,6 +1,7 @@
 
 import React from 'react'
 import styles from "./page.module.css"
+import MyComponent from '../MyComponent';
 const getData = async (url) => {
   console.log(url,"here in react");
   const searchParams = new URLSearchParams();
@@ -31,7 +32,7 @@ const getData = async (url) => {
             <p>{data.post.tag}</p>
         </div>
         <div className={styles.content}>
-            {data.post.content}
+        <MyComponent htmlContent={data.post.content} />
         </div>
 
         

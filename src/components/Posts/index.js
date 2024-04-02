@@ -30,11 +30,11 @@ import Link from 'next/link';
     <div className={styles.posts}>
         <h2>Latest posts</h2>
         {posts.map(post => (
-          <Link href={`/post/${post._id}`}>
+          <Link href={`/post/${post._id}`} className={styles.link}>
         <div className={styles.post} key={post._id}> {/* Assuming each post has a unique _id */}
           <h3>{post.title}</h3> {/* Assuming post title */}
-          <p>{post.time}</p> {/* Assuming post time */}
-          <p>{post.content}</p>
+          <p>published on {post.time}</p> {/* Assuming post time */}
+         
         </div>
         </Link>
       ))}

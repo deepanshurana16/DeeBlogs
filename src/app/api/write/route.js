@@ -5,14 +5,14 @@ import User from "@/app/models/post";
 export const POST = async (req, res) => {
     try {
         const body = await req.json(); 
-        console.log(body);
+      //  console.log(body);
         const userData = {
             title: body.title,
             content: body.content,
             tag: body.tag,
             time: new Date() 
         };
-        console.log(userData);
+      //  console.log(userData);
           await User.create(userData);
        //make corrections here
         return NextResponse.json({ message: "User posted successfully" }, { status: 200 });

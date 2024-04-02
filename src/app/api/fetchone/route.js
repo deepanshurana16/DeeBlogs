@@ -9,7 +9,7 @@ export const GET = async (req, res) => {
         const _id = searchParams.get('id');
 
         //console.log("here",_id);
-        console.log("here in backend",_id);
+      //  console.log("here in backend",_id);
 
         // Find the post by ID
         const getPost = await User.findById(_id);
@@ -22,7 +22,7 @@ export const GET = async (req, res) => {
             return NextResponse.json({ error: "Post not found" }, { status: 404 });
         }
 
-        console.log("Post found:", getPost);
+       // console.log("Post found:", getPost);
         const getPostJSON = await getPost.toJSON();
 
         // Return the post as JSON response
