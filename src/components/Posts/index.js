@@ -34,6 +34,7 @@ import Link from 'next/link';
         <div className={styles.post} key={post._id}> {/* Assuming each post has a unique _id */}
           <h3>{post.title}</h3> {/* Assuming post title */}
           <p>{post.time}</p> {/* Assuming post time */}
+          <p>{post.content}</p>
         </div>
         </Link>
       ))}
