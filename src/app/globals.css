@@ -1,7 +1,29 @@
+
+:root {
+  --primary-color: #0070f3;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme='dark'] {
+  --primary-color: #61dafb;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+.light{
+  --primary-color: #0070f3;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+.dark{
+  --primary-color: #61dafb;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
 *{
   padding:0px;
   margin:0px;
   box-sizing: border-box;
-  background-color: white;
-  color:black;
+  background-color:var(--background-color);
+  color:var(--text-color);
 }

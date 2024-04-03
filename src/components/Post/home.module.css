@@ -28,3 +28,24 @@
 .para{
     padding:1rem;
 }
+.icon{
+    width:25px;
+    height:25px;
+    margin:2px;
+    margin-top:10px;
+    position: absolute;
+    top:0px;
+    right:75%;
+    top:20%;
+
+}
+.link{
+    padding:2rem;
+    width:25px;
+    height:25px;
+    margin-bottom:1rem;
+    position: relative;
+    text-decoration: none;
+    color: #50b8e7;
+    font-weight: 700;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./navbar.module.css"
 import Link from 'next/link'
+import ThemeToggle from '../ThemeSwitcher'
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -16,7 +17,7 @@ const Navbar = () => {
         </li>
         </div>
         <div className={styles.rightSideNavbar}>
-            night
+            <ThemeToggle></ThemeToggle>
 
         </div>
 

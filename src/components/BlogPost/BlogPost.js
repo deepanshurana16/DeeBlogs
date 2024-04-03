@@ -12,17 +12,17 @@ const getData = async (url) => {
   });
     //console.log(res);
      res=await res.json();
-     console.log(res,"here in react");
+    // console.log(res,"here in react");
     if (!res.ok) {
    //console.log(res);
-   console.log("error");
+  // console.log("error");
     }
-  console.log("here","out of ")
+ // console.log("here","out of ")
     return res;
   };
  const BlogPage = async({url}) => {
    const data = await getData(url);
-   console.log(data,"here data");
+   //console.log(data,"here data");
     
   return (
     <div className={styles.container}>
