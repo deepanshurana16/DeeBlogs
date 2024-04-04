@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+
+}
+.links{
+    display: flex;
+    
+}
+.items{
+    padding-left:1rem;
+}
