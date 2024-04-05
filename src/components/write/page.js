@@ -149,7 +149,8 @@ const Writepage = () => {
             <button className={styles.publish} onClick={handlePublish}>Publish</button>
         </div>
     );
-};
+}
+
 
 export default Writepage;
 

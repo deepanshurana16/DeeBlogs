@@ -8,4 +8,6 @@ const write = () => {
     </div>
   )
 }
+
+
 export default write;
