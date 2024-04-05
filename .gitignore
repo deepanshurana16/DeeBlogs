@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/src/write
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -30,7 +31,7 @@ yarn-error.log*
 
 # vercel
 .vercel
-/write
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
