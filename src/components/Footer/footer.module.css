@@ -4,6 +4,8 @@
     margin-top:2rem;
     font-weight: 300;
     font-size:0.8rem;
+    margin-bottom: 0.3rem;
+    width:70%;
 }
 .links{
     display: flex;

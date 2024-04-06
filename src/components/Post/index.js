@@ -3,6 +3,7 @@ import styles from "./home.module.css"
 import Image from 'next/image'
 import Posts from '../Posts'
 import Link from 'next/link';
+import { Footer } from '../Footer';
 
 const Post = () => {
   return (
@@ -28,7 +29,7 @@ const Post = () => {
     alt="Follow us on Twitter"
     width={25}
     height={25}
-    className={styles.icon}
+    className={styles.icon2}
   />Github</Link></p>
         </div>
         <div className={styles.image}>
@@ -36,7 +37,7 @@ const Post = () => {
         </div>
       </div>
       <Posts></Posts>
-      
+      <Footer></Footer>
       </div>
   )
 }

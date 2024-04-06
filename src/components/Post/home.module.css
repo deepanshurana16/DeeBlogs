@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-  width:50%;
+    width:50rem;
+ 
 }
 .about{
     display: flex;
@@ -15,10 +15,10 @@
     
     padding:2rem;
 }
-
 .posts{
     width:30vw;
 }
+
 .image{
     width:10rem;
     height:10rem;
@@ -35,8 +35,19 @@
     margin-top:10px;
     position: absolute;
     top:0px;
-    right:75%;
-    top:20%;
+    right:6.1rem;
+    top:1rem;
+
+}
+.icon2{
+    width:25px;
+    height:25px;
+    margin:2px;
+    margin-top:10px;
+    position: absolute;
+    top:0px;
+    right:5.3rem;
+    top:1rem;
 
 }
 .link{
@@ -48,4 +59,22 @@
     text-decoration: none;
     color: #50b8e7;
     font-weight: 700;
+}
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+    .content h1{
+        text-align: center;
+    }
+    /* .container{
+        width: 100rem;
+    } */
+    .container{
+        width:100rem;
+    }
+   
+}
+@media (max-width: 445px) {
+ 
 }
