@@ -12,10 +12,10 @@ const Post = () => {
       <div className={styles.about}>
         <div className={styles.content}>
         <h1>Hey I'm harsh!</h1>
-        <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a modi alias maiores sed, magni cumque ea velit molestiae corrupti.</p>
-        <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a modi alias maiores sed, magni cumque ea velit molestiae corrupti.</p>
-        <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a modi alias maiores sed, magni cumque ea velit molestiae corrupti.</p>
-        <p className={styles.para}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem asperiores, veniam exercitationem nemo nulla mollitia eos, corporis id velit cumque tempore, neque inventore impedit eveniet atque consectetur cum sint nam commodi! Mollitia est cum optio tempora ex aut commodi debitis, laudantium distinctio eos, laborum fuga saepe eum explicabo, doloremque molestiae.</p>
+        <p className={styles.para}> a passionate computer science engineer from Vellore Institute of Technology, India.</p>
+        <p className={styles.para}>  Ever since diving into the world of code in 2020, I've been fascinated by its potential to create innovative solutions and bridge the gap between technology and human experience</p>
+        <p className={styles.para}>This blog is my playground to share my experiences, learnings, and projects as I navigate the exciting world of tech</p>
+        <p className={styles.para}> From front-end development with React and Material-UI to back-end functionalities with Node.js, I'm constantly exploring new tools and frameworks to craft dynamic and user-friendly applications</p>
         <p className={`${styles.para} ${styles.social}`}>Social links: <Link href="https://www.linkedin.com/in/harshsingh0310/" className={styles.link} > <Image
       priority
       src="/images/linkedin.svg"
