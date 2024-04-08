@@ -16,7 +16,7 @@ const Post = () => {
         <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a modi alias maiores sed, magni cumque ea velit molestiae corrupti.</p>
         <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a modi alias maiores sed, magni cumque ea velit molestiae corrupti.</p>
         <p className={styles.para}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem asperiores, veniam exercitationem nemo nulla mollitia eos, corporis id velit cumque tempore, neque inventore impedit eveniet atque consectetur cum sint nam commodi! Mollitia est cum optio tempora ex aut commodi debitis, laudantium distinctio eos, laborum fuga saepe eum explicabo, doloremque molestiae.</p>
-        <p className={styles.para}>Social links: <Link href="https://www.linkedin.com/in/harshsingh0310/" className={styles.link} > <Image
+        <p className={`${styles.para} ${styles.social}`}>Social links: <Link href="https://www.linkedin.com/in/harshsingh0310/" className={styles.link} > <Image
       priority
       src="/images/linkedin.svg"
       alt="Follow us on Twitter"

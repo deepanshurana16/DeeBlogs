@@ -18,10 +18,15 @@
     padding:10px;
 }
 .line{
-    width:40rem;
+    width:100%;
     opacity: 0.2;
 }
 .linkitems{
     text-decoration: none;
     
 }
+@media (max-width: 350px) {
+   .container{
+    width: 100%;
+   }
+   }

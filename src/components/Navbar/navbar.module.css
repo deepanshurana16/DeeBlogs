@@ -25,3 +25,8 @@
 .rightSideNavbar{
     padding-top:1rem;
 }
+@media (max-width: 380px) {
+    .container{
+        justify-content: space-between;
+    }
+   }

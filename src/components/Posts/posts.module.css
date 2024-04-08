@@ -9,3 +9,10 @@
     text-decoration: none;
     padding:2rem;
 }
+
+@media (max-width: 600px) {
+    .posts{
+        width:70vw;
+    }
+   
+}

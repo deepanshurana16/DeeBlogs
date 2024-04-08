@@ -16,7 +16,7 @@
     padding:2rem;
 }
 .posts{
-    width:30vw;
+    width:50rem;
 }
 
 .image{
@@ -71,10 +71,12 @@
         width: 100rem;
     } */
     .container{
-        width:100vw;
+        width:100%;
     }
    
 }
 @media (max-width: 445px) {
- 
+ .social{
+    display: none;
+ }
 }

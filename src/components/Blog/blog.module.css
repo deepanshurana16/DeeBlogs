@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding:2rem;
     height:100vh;
+   
 }
 .tags{
     display: flex;
@@ -43,3 +43,22 @@ background-color: #D4E7C5;
 .mongodb{
     background-color: #7BD3EA;
 }
+@media (max-width:750px){
+    .tags{
+        flex-direction: column;
+        
+    }
+    .container{
+        width:70vw;
+        height: auto;
+    }
+   }
+   @media (max-width:400px){
+    .tags{
+        flex-direction: column;
+        
+    }
+    .container{
+        width:90vw;
+    }
+   }

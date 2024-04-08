@@ -7,3 +7,14 @@
     width:50vw;
     
 }
+@media (max-width: 600px) {
+    .container{
+        width:70vw;
+        
+    }
+   }
+   @media (max-width:375px){
+    .container{
+        width:90vw;
+    }
+   }
