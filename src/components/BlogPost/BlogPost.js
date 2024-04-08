@@ -7,8 +7,8 @@ const getData = async (url) => {
   console.log(url,"here in react");
   const searchParams = new URLSearchParams();
   searchParams.append('id', url); // Add your id variable here
-  
-  let res = await fetch(`/api/fetchone?${searchParams}`, {
+  //http://localhost:3000
+  let res = await fetch(`https://own-blog-nu.vercel.app/api/fetchone?${searchParams}`, {
     cache: "no-store",
   });
     //console.log(res);
