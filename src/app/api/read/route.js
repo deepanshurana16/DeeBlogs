@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import User from "@/app/models/post"; // Assuming this is your Mongoose model
+import User from "@/app/models/post"; 
 
 export const GET = async (req, res) => {
     try {
