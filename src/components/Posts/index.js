@@ -12,10 +12,10 @@ import Link from 'next/link';
     // Function to fetch posts from API
     const fetchPosts = async () => {
       try {
-        const response = await fetch('/api/read'); // Assuming your API endpoint is /api/posts
+        const response = await fetch('/api/read'); 
         if (response.ok) {
           const data = await response.json();
-          setPosts(data.posts); // Assuming the response has a key 'posts' containing an array of posts
+          setPosts(data.posts); 
         } else {
           throw new Error('Failed to fetch posts');
         }
