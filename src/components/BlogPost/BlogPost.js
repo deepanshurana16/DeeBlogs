@@ -16,7 +16,7 @@ const getData = async (url) => {
     // console.log(res,"here in react");
     if (!res.ok) {
    //console.log(res);
-  // console.log("error");
+ 
     }
  // console.log("here","out of ")
     return res;
