@@ -4,14 +4,14 @@ import styles from "./page.module.css"
 import MyComponent from '../MyComponent';
 import { Footer } from '../Footer';
 const getData = async (url) => {
-  console.log(url,"here in react");
+ // console.log(url,"here in react");
   const searchParams = new URLSearchParams();
   searchParams.append('id', url); // Add your id variable here
   //http://localhost:3000
   let res = await fetch(`https://own-blog-nu.vercel.app/api/fetchone?${searchParams}`, {
     cache: "no-store",
   });
-    //console.log(res);
+    
      res=await res.json();
     // console.log(res,"here in react");
     if (!res.ok) {
