@@ -13,7 +13,7 @@ const getData = async (url) => {
   });
     
      res=await res.json();
-    // console.log(res,"here in react");
+    
     if (!res.ok) {
    //console.log(res);
  
