@@ -8,7 +8,7 @@ const Blog = () => {
 <h1>Blog</h1>
 <p> Here, you'll find insights into my  projects and thoughts about Software Development in general,Whether you're a seasoned developer or just starting your coding journey, I invite you to join me on this exploration. Let's delve into the intricacies of code, celebrate achievements, and tackle challenges together!</p>
 <div className={styles.tags}>
-  <p>Common tags:</p>
+  <p className={styles.para}>Common tags:</p>
   <div className={`${styles.tag} ${styles.reactjs}`}>Reactjs</div>
   <div className={`${styles.tag} ${styles.nodejs}`}>Nodejs</div>
   <div className={`${styles.tag} ${styles.nextjs}`}>Nextjs</div>

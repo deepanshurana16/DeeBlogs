@@ -7,6 +7,19 @@
     width:50vw;
     
 }
+.tag{
+    padding:0.4rem;
+    background-color: #8E7AB5;
+    border-radius: 10%;
+    margin:0.3rem;
+    width: 4rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 @media (max-width: 600px) {
     .container{
         width:70vw;

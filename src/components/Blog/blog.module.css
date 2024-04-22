@@ -9,6 +9,10 @@
     height:100vh;
    
 }
+.para{
+    text-align: center;
+    padding-top:0.5rem;
+}
 .tags{
     display: flex;
     

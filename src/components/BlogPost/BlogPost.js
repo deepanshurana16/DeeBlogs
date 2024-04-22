@@ -30,7 +30,7 @@ const getData = async (url) => {
         <div className={styles.title}>
             <h1>{data.post.title}</h1>
             <p>{data.post.time}</p>
-            <p>{data.post.tag}</p>
+            <p className={styles.tag}>{data.post.tag}</p>
         </div>
         <div className={styles.content}>
         <MyComponent htmlContent={data.post.content} />
