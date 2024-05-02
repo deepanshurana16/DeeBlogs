@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeContextProvider } from "./context/ThemeContext";
 import { ThemeProvider } from "./providers/ThemeProvider";
 import { Analytics } from "@vercel/analytics/react"
+import { Providers } from "./providers/chakraProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,10 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={inter.className}><ThemeContextProvider>
+      <body className={inter.className}><Providers><ThemeContextProvider>
   <ThemeProvider>{children}
   <Analytics /></ThemeProvider>
-      </ThemeContextProvider></body>
+      </ThemeContextProvider></Providers></body>
       
     </html>
   );

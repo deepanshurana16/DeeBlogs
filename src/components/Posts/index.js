@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "./posts.module.css"
 import { useState,useEffect } from 'react';
 import Link from 'next/link';
-
+import { ReactjsImage } from '../ReactjsImage';
  const Posts = () => {
 
 
@@ -31,6 +31,7 @@ import Link from 'next/link';
         <h2>Latest posts</h2>
         {posts.map(post => (
           <Link href={`/post/${post._id}`} className={styles.link} key={post._id}>
+            <ReactjsImage></ReactjsImage>
         <div className={styles.post} key={post._id}> {/* Assuming each post has a unique _id */}
           <h3>{post.title}</h3> {/* Assuming post title */}
           <p>published on {post.time}</p> {/* Assuming post time */}
