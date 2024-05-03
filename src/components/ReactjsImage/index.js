@@ -4,13 +4,11 @@ import { IconContext } from "react-icons";
 import { Icon } from "@chakra-ui/react";
  
 export const ReactjsImage=()=>{
-const style={width:'50px'}
+  const size="50px";
    return (
-   //    <IconContext.Provider
-   //    value={{  size: '50px' }}
-   //  >
-   <div className="icons"> <RiReactjsFill style={style}></RiReactjsFill></div>
-   // </IconContext.Provider>
+    
+   <div className="icons"> <RiReactjsFill size={size}></RiReactjsFill></div>
+  
 
 )
 
