@@ -4,7 +4,7 @@ import styles from "./home.module.css"
 import Image from 'next/image'
 import Posts from '../Posts'
 import Link from 'next/link';
-import { Footer } from '../Footer';
+import SmallWithSocial from '../Footer';
 import {useContext} from "react";
 import { ThemeContext } from '@/app/context/ThemeContext';
 import { GithubImage } from '../GithubImage';
@@ -29,7 +29,7 @@ const Post = () => {
         </div>
       </div>
       <Posts></Posts>
-      <Footer></Footer>
+      <SmallWithSocial></SmallWithSocial>
       </div>
   )
 }
