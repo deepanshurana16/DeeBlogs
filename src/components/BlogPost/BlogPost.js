@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from "./page.module.css"
 import MyComponent from '../MyComponent';
-import { Footer } from '../Footer';
+import SmallWithSocial from '../Footer';
 const getData = async (url) => {
  // console.log(url,"here in react");
   const searchParams = new URLSearchParams();
@@ -35,7 +35,7 @@ const getData = async (url) => {
         <div className={styles.content}>
         <MyComponent htmlContent={data.post.content} />
         </div>
-        <Footer></Footer>
+        <SmallWithSocial></SmallWithSocial>
 
         
     </div>

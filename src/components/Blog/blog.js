@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./blog.module.css";
 import Posts from '../Posts';
-import { Footer } from '../Footer';
+import SmallWithSocial from '../Footer';
 const Blog = () => {
   return (
     <div className={styles.container}>
@@ -18,7 +18,7 @@ const Blog = () => {
   <div  className={`${styles.tag} ${styles.vscode}`}>VSCODE</div>
 </div>
 <Posts></Posts>
-        <Footer></Footer>
+        <SmallWithSocial></SmallWithSocial>
     </div>
   )
 }
