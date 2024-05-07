@@ -4,6 +4,7 @@ import styles from "./posts.module.css"
 import { useState,useEffect } from 'react';
 import Link from 'next/link';
 import { ReactjsImage } from '../ReactjsImage';
+import { Heading } from '@chakra-ui/react'
  const Posts = () => {
 
 
@@ -28,12 +29,12 @@ import { ReactjsImage } from '../ReactjsImage';
   }, []); 
   return (
     <div className={styles.posts}>
-        <h2>Latest posts</h2>
+      <Heading size="xl">Latest posts</Heading>
         {posts.map(post => (
           <Link href={`/post/${post._id}`} className={styles.link} key={post._id}>
             <ReactjsImage></ReactjsImage>
         <div className={styles.post} key={post._id}> {/* Assuming each post has a unique _id */}
-          <h3>{post.title}</h3> {/* Assuming post title */}
+          <Heading size="md">{post.title}</Heading>{/* Assuming post title */}
           <p>published on {post.time}</p> {/* Assuming post time */}
          
         </div>
