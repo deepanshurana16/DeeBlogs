@@ -2,10 +2,11 @@ import React from 'react'
 import styles from "./blog.module.css";
 import Posts from '../Posts';
 import SmallWithSocial from '../Footer';
+import { Heading } from '@chakra-ui/react';
 const Blog = () => {
   return (
     <div className={styles.container}>
-<h1>Blog</h1>
+<Heading size="xl">Blog</Heading>
 <p> Here, you'll find insights into my  projects and thoughts about Software Development in general,Whether you're a seasoned developer or just starting your coding journey, I invite you to join me on this exploration. Let's delve into the intricacies of code, celebrate achievements, and tackle challenges together!</p>
 <div className={styles.tags}>
   <p className={styles.para}>Common tags:</p>

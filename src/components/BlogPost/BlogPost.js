@@ -3,6 +3,7 @@ import React from 'react'
 import styles from "./page.module.css"
 import MyComponent from '../MyComponent';
 import SmallWithSocial from '../Footer';
+import { Heading } from '@chakra-ui/react';
 const getData = async (url) => {
  // console.log(url,"here in react");
   const searchParams = new URLSearchParams();
@@ -28,7 +29,7 @@ const getData = async (url) => {
   return (
     <div className={styles.container}>
         <div className={styles.title}>
-            <h1>{data.post.title}</h1>
+            <Heading>{data.post.title}</Heading>
             <p>{data.post.time}</p>
             <p className={styles.tag}>{data.post.tag}</p>
         </div>
